@@ -1,0 +1,106 @@
+<section class="popup_cart b-popup container " id="modal-cart" style="display: none;">
+    <div class="row b-popup-content popup_cart-container">
+        <div class="close-btn open-modal-link" data-modal-container="#modal-cart">
+            <img src="img/close.png" alt="">
+        </div>
+        <div class="inner">
+            <div class="left-part">
+                <div class="cart-title">
+                    <h2>Корзина</h2>
+                </div>
+                <div class="order_list">
+                    <div class="order_info">
+                        <div class=" order_info_img">
+                            <img src="img/kupit-alkobarer-small.png" alt="">
+                        </div>
+                        <div class="order_info_title">АлкоБарьер</div>
+                        <div class="order_info_value calc-plus-minus-widget">
+                            <div class="order_info_value__plusminus action-minus">-</div>
+                            <input name=""  type="number" min="1" required class="order_info_value__number val-widget" value="1">
+                            <div class="order_info_value__plusminus action-plus">+</div>
+                        </div>
+                        <div class="order_info_price"><span class="price-text">990</span><span class="price-currency">руб</span></div>
+                        <div class="order_info_dell"><span class="remove-from-cart" data-item=".order_info">Удалить</span></div>
+                    </div>
+
+                    <!--<div class="order_info">-->
+                        <!--<div class=" order_info_img">-->
+                            <!--<img src="img/kupit-alkobarer-small.png" alt="">-->
+                        <!--</div>-->
+                        <!--<div class="order_info_title">АлкоБарьер</div>-->
+                        <!--<div class="order_info_value calc-plus-minus-widget">-->
+                            <!--<div class="order_info_value__plusminus action-minus">-</div>-->
+                            <!--<input name=""  type="number" min="1" required class="order_info_value__number val-widget" value="1">-->
+                            <!--<div class="order_info_value__plusminus action-plus">+</div>-->
+                        <!--</div>-->
+                        <!--<div class="order_info_price"><span class="price-text">990</span><span class="price-currency">руб</span></div>-->
+                        <!--<div class="order_info_dell"><span class="remove-from-cart" data-item=".order_info">Удалить</span></div>-->
+                    <!--</div>-->
+                </div>
+                <hr>
+                <div class="outcome">
+                    <div class="outcome_promo"><a href=""> Есть промокод?</a></div>
+                    <div class="outcome_summ d-flex justify-content-end">
+                        <span class="outcome_text">Итого: </span>
+                        <span class="outcome_price">990</span>
+                        <span class="outcome_currency">руб</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="sale_container justify-content-between sale d-flex align-items-center">
+                    <div class="sale_img">
+                        <img src="img/sale.png" alt="sale">
+                    </div>
+                    <div class="sale_info">
+                        <p>При заказе дарим промокод на следующую покупку</p>
+                        <span>Промокод выдается сразу, но становится действительным только после утверждения</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-part formalization">
+                <div class="formalization_title">
+                    Оформление
+                </div>
+                <div class="formalization_kards">
+                    <img src="img/kards.png" alt="kards">
+                </div>
+                <div class="formalization_payment">
+                    <form action="">
+                        <span><b class="fw-800">Оплата: </b></span>
+
+                        <div class="form-group">
+                            <ul class="formalization_payment_list">
+                                <li>
+                                    <input type="radio" name="payment" id="card">
+                                    <label for="card">Картой при получении</label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="payment" id="cash">
+                                    <label for="cash">Наличными при получении</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="form-group f-group-country">
+                            <label for="country_city" class="country_city fw-800">Страна и город:</label>
+                            <input type="text" id="country_city" name="country_city" placeholder="Екатеринбург">
+                        </div>
+                        <hr class="hr-country">
+                        <div class="form-group">
+                            <label for="fio" class="input_contacts fw-800">Контакты:</label>
+                            <div class="inputs-contact">
+                                <input type="text" id="fio" name="fio" placeholder="Имя и фамилия">
+                                <input type="text" id="phone" name="phone" placeholder="Телефон">
+                            </div>
+                        </div>
+
+                        <button class="buy_button" type="submit">Оформить заказ</button>
+                        <span class="acept_order help-submit">Нажимая на кнопку, Вы соглашаетесь с политикой конфиденциальности</span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
